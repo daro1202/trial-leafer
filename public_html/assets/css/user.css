@@ -1,0 +1,46 @@
+/* -------------------------------------------------------------------------- */
+/*                                Falcon Button                               */
+/* -------------------------------------------------------------------------- */
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p{
+  margin: 0;
+}
+.wrap-tab{
+  overflow: hidden;
+}
+
+.list-tab{
+  display: flex;
+  margin: 0 -2px;
+}
+.list-tab > li{
+  display: block;
+  padding: 0.5em 1em;
+  /*margin: 0 2px;*/
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background: #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.list-tab .active{
+  background: #5bbee5;
+}
+
+.tab-content{
+  display: none;
+  padding: 1em;
+  border-bottom: 1px solid #5bbee5;
+  border-left: 1px solid #5bbee5;
+  border-right: 1px solid #5bbee5;
+}
+.tab-content.active{
+  display: block;
+}
